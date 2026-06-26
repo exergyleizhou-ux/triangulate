@@ -1,5 +1,8 @@
 # Causal triangulation for biomarker–mortality associations — method, validation, tool
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20904051.svg)](https://doi.org/10.5281/zenodo.20904051)
+
+
 This repository turns "triangulation" from a slogan into a **measured, reproducible instrument**
 for deciding whether an observational biomarker–mortality association deserves a causal reading.
 It is the methodological follow-up to the NHANES cadmium–mortality study, built to escape the
