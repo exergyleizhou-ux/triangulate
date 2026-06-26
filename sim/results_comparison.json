@@ -1,0 +1,82 @@
+{
+  "by_method": {
+    "naive": {
+      "sensitivity": 1.0,
+      "specificity": 0.3191666666666667,
+      "per_world": {
+        "causal": 1.0,
+        "confounded": 1.0,
+        "reverse": 1.0,
+        "null": 0.0425
+      }
+    },
+    "evalue_only": {
+      "sensitivity": 1.0,
+      "specificity": 0.33333333333333337,
+      "per_world": {
+        "causal": 1.0,
+        "confounded": 1.0,
+        "reverse": 1.0,
+        "null": 0.0
+      }
+    },
+    "negctrl_calib": {
+      "sensitivity": 1.0,
+      "specificity": 0.5991666666666666,
+      "per_world": {
+        "causal": 1.0,
+        "confounded": 0.11,
+        "reverse": 1.0,
+        "null": 0.0925
+      }
+    },
+    "speccurve": {
+      "sensitivity": 1.0,
+      "specificity": 0.3191666666666667,
+      "per_world": {
+        "causal": 1.0,
+        "confounded": 1.0,
+        "reverse": 1.0,
+        "null": 0.0425
+      }
+    },
+    "negctrl_landmark": {
+      "sensitivity": 0.9925,
+      "specificity": 0.9966666666666667,
+      "per_world": {
+        "causal": 0.9925,
+        "confounded": 0.0,
+        "reverse": 0.0,
+        "null": 0.01
+      }
+    },
+    "protocol": {
+      "sensitivity": 0.9925,
+      "specificity": 1.0,
+      "per_world": {
+        "causal": 0.9925,
+        "confounded": 0.0,
+        "reverse": 0.0,
+        "null": 0.0
+      }
+    }
+  },
+  "combined": {
+    "confounded+reverse": {
+      "naive": 1.0,
+      "evalue_only": 1.0,
+      "negctrl_calib": 1.0,
+      "speccurve": 1.0,
+      "negctrl_landmark": 0.7766666666666666,
+      "protocol": 0.7766666666666666
+    },
+    "confounded+causal": {
+      "naive": 1.0,
+      "evalue_only": 1.0,
+      "negctrl_calib": 1.0,
+      "speccurve": 1.0,
+      "negctrl_landmark": 0.0,
+      "protocol": 0.0
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "plasmode_causal_mild": 0.5325,
+  "plasmode_causal_strong": 0.0,
+  "plasmode_confounded_null": 0.0,
+  "randomized_ensemble": {
+    "sensitivity": 0.5620805369127517,
+    "specificity": 0.9756637168141593,
+    "n_causal": 596,
+    "n_spurious": 904
+  }
+}

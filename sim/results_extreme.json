@@ -1,0 +1,32 @@
+{
+  "threshold_sensitivity": {
+    "n_configs": 27,
+    "sens_min": 0.8533333333333334,
+    "sens_max": 1.0,
+    "spec_min": 0.9988888888888889,
+    "spec_max": 1.0
+  },
+  "collider": {
+    "false_causal": 0.7233333333333334,
+    "primary_sig": 0.99,
+    "landmark_attenuates": 0.05
+  },
+  "naive_vs_strength": {
+    "0.3": {
+      "protocol_spec": 1.0,
+      "naive_spec": 0.05666666666666664
+    },
+    "0.5": {
+      "protocol_spec": 1.0,
+      "naive_spec": 0.0
+    },
+    "0.7": {
+      "protocol_spec": 1.0,
+      "naive_spec": 0.0
+    },
+    "0.9": {
+      "protocol_spec": 1.0,
+      "naive_spec": 0.0
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "main": {
+    "R": 1000,
+    "n": 5000,
+    "scenarios": {
+      "causal": {
+        "verdict_causal": 0.993,
+        "naive_causal": 1.0,
+        "primary_sig": 1.0,
+        "persists_lm": 1.0,
+        "negctrl_clean": 0.993,
+        "xsec_consist": 1.0,
+        "evalue_ok": 1.0
+      },
+      "confounded": {
+        "verdict_causal": 0.0,
+        "naive_causal": 1.0,
+        "primary_sig": 1.0,
+        "persists_lm": 1.0,
+        "negctrl_clean": 0.0,
+        "xsec_consist": 1.0,
+        "evalue_ok": 1.0
+      },
+      "reverse": {
+        "verdict_causal": 0.0,
+        "naive_causal": 1.0,
+        "primary_sig": 1.0,
+        "persists_lm": 0.0,
+        "negctrl_clean": 1.0,
+        "xsec_consist": 0.0,
+        "evalue_ok": 1.0
+      },
+      "null": {
+        "verdict_causal": 0.0,
+        "naive_causal": 0.032,
+        "primary_sig": 0.032,
+        "persists_lm": 0.026,
+        "negctrl_clean": 0.61,
+        "xsec_consist": 1.0,
+        "evalue_ok": 0.0
+      }
+    },
+    "sensitivity": 0.993,
+    "specificity": 1.0,
+    "naive_specificity": 0.32266666666666666
+  },
+  "sample_size": {
+    "1500": {
+      "causal": 0.908,
+      "confounded": 0.0,
+      "reverse": 0.0,
+      "null": 0.002
+    },
+    "3000": {
+      "causal": 0.978,
+      "confounded": 0.0,
+      "reverse": 0.0,
+      "null": 0.002
+    },
+    "6000": {
+      "causal": 0.998,
+      "confounded": 0.0,
+      "reverse": 0.0,
+      "null": 0.0
+    },
+    "12000": {
+      "causal": 1.0,
+      "confounded": 0.0,
+      "reverse": 0.0,
+      "null": 0.0
+    }
+  },
+  "effect_size": {
+    "1.1": 0.035,
+    "1.2": 0.31166666666666665,
+    "1.3": 0.7816666666666666,
+    "1.45": 0.9966666666666667
+  },
+  "confounding": {
+    "0.3": {
+      "false_causal": 0.0,
+      "negctrl_flags": 1.0
+    },
+    "0.5": {
+      "false_causal": 0.0,
+      "negctrl_flags": 1.0
+    },
+    "0.7": {
+      "false_causal": 0.0,
+      "negctrl_flags": 1.0
+    },
+    "0.9": {
+      "false_causal": 0.0,
+      "negctrl_flags": 1.0
+    }
+  },
+  "runtime_min": 21.7
+}

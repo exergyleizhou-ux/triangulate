@@ -1,0 +1,17 @@
+{
+  "sensitivity": 0.9875,
+  "specificity": 0.7608333333333334,
+  "per_world": {
+    "causal": 0.9875,
+    "confounded": 0.0,
+    "reverse": 0.7175,
+    "null": 0.0
+  },
+  "mean_hr": {
+    "causal": 1.3526580353113768,
+    "confounded": 1.505138037389431,
+    "reverse": 2.4511048452298736,
+    "null": 1.0008405972454304
+  },
+  "ph_p_median": 0.002672905312553388
+}

@@ -1,0 +1,17 @@
+N=16560  all-cause deaths=7122  CVD deaths=2642  median FU=26.2y
+== Urinary cadmium (per 1-SD log) ==
+   all-cause Cox HR   = 1.12 (1.08-1.15)  p=2.1e-12
+   2y landmark HR     = 1.11 (1.07-1.14)
+   5y landmark HR     = 1.10 (1.07-1.14)
+   E-value (CI bound) = 1.48 (1.38)
+   cross-sec OR (diabetes) = 0.87
+   verdict: robust-causal-candidate  [passes every pre-specified check]
+== Blood lead (per 1-SD log) ==
+   all-cause Cox HR   = 1.09 (1.05-1.12)  p=1.0e-07
+   2y landmark HR     = 1.07 (1.04-1.11)
+   5y landmark HR     = 1.07 (1.03-1.10)
+   E-value (CI bound) = 1.40 (1.29)
+   cross-sec OR (diabetes) = 0.80
+   verdict: robust-causal-candidate  [cross-sectional sign reverses — reverse causation signature]
+CVD-specific Urinary cadmium: HR=1.13 (1.08-1.19)
+CVD-specific Blood lead: HR=1.12 (1.07-1.18)
