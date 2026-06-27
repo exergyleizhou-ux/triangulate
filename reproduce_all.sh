@@ -25,6 +25,7 @@ echo "==> [6/8] Design-effect (survey-variance) robustness of the operating char
 
 echo "==> [6b] Out-of-family stress test: non-proportional-hazards log-logistic AFT  (results_nonph_weibull.json)"
 ( cd sim && python nonph_weibull.py )
+( cd sim && python reverse_strength.py )   # reverse-causation artefact-strength sweep
 
 echo "==> [7/8] Figures  (figures/sim_fig*.pdf)"
 ( cd sim && python sim_figures.py )

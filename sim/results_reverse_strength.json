@@ -1,0 +1,32 @@
+{
+  "0.3": {
+    "primary_hr": 1.3904989081372254,
+    "protocol_spec": 1.0,
+    "naive_spec": 0.0,
+    "landmark_catches": 1.0
+  },
+  "0.5": {
+    "primary_hr": 1.7310554839467203,
+    "protocol_spec": 1.0,
+    "naive_spec": 0.0,
+    "landmark_catches": 1.0
+  },
+  "0.7": {
+    "primary_hr": 2.168929672804449,
+    "protocol_spec": 1.0,
+    "naive_spec": 0.0,
+    "landmark_catches": 1.0
+  },
+  "0.9": {
+    "primary_hr": 2.659827945928293,
+    "protocol_spec": 1.0,
+    "naive_spec": 0.0,
+    "landmark_catches": 1.0
+  },
+  "1.1": {
+    "primary_hr": 3.1593422849816566,
+    "protocol_spec": 1.0,
+    "naive_spec": 0.0,
+    "landmark_catches": 1.0
+  }
+}
